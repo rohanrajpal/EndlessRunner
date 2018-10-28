@@ -44,5 +44,7 @@ public class SpaceRunnerSubScene extends SubScene {
         transition.play();
     }
 
-
+    public AnchorPane getPane(){
+        return (AnchorPane) this.getRoot();
+    }
 }
